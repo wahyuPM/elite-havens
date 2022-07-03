@@ -1,0 +1,47 @@
+section.hero {
+    font-family: "FS Siena", sans-serif;
+    height: 100%;
+
+    .owl-carousel .owl-item img {
+        min-height: 150%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .hero-title {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 2;
+
+        h1 {
+            font-weight: 400;
+            text-align: center;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            width: 40%;
+            margin-bottom: 50px;
+        }
+    }
+    .hero__btn{
+        color: #231F20;
+        letter-spacing: 1px;
+        background-color: rgba(255, 255, 255, 0.4);
+        border: 1px solid #231F20;
+
+        &:focus{
+            outline: none;
+            box-shadow: none;
+        }
+    }
+}
+
+.demo-page{
+    min-height: 50vh;
+}

@@ -1,0 +1,9 @@
+$primary: #231f20;
+$secondary: #ebedee;
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+@import "mixin.scss";
+@import "typography";
+@import "header.scss";
+@import "hero.scss"
