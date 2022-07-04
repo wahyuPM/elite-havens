@@ -1540,7 +1540,7 @@ progress {
   background-clip: padding-box;
   border: 1px solid #ced4da;
   appearance: none;
-  border-radius: 0.25rem;
+  border-radius: 40px;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
     .form-control {
@@ -1659,10 +1659,10 @@ textarea.form-control-lg {
     cursor: pointer; }
   .form-control-color::-moz-color-swatch {
     height: 1.5em;
-    border-radius: 0.25rem; }
+    border-radius: 40px; }
   .form-control-color::-webkit-color-swatch {
     height: 1.5em;
-    border-radius: 0.25rem; }
+    border-radius: 40px; }
 
 .form-select {
   display: block;
@@ -1679,7 +1679,7 @@ textarea.form-control-lg {
   background-position: right 0.75rem center;
   background-size: 16px 12px;
   border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  border-radius: 40px;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none; }
   @media (prefers-reduced-motion: reduce) {
@@ -1930,7 +1930,7 @@ textarea.form-control-lg {
   white-space: nowrap;
   background-color: #e9ecef;
   border: 1px solid #ced4da;
-  border-radius: 0.25rem; }
+  border-radius: 40px; }
 
 .input-group-lg > .form-control,
 .input-group-lg > .form-select,
@@ -7821,6 +7821,7 @@ header {
   z-index: 50; }
   header.onScroll {
     background: #ebedee;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
     opacity: 0.8;
     transition: all 0.5s ease-in-out; }
   header.stick {
