@@ -49,32 +49,75 @@
                 <option value="3">Three</option>
               </select>
             </div>
+            <div class="row mb-4">
+              <div class="col-6">
+                <label for="">Check In</label>
+                <datetime
+                  type="date"
+                  value-type="format"
+                  format="yyyy-MM-dd"
+                  required
+                ></datetime>
+              </div>
+              <div class="col-6">
+                <label for="">Check Out</label>
+                <datetime
+                  type="date"
+                  value-type="format"
+                  format="yyyy-MM-dd"
+                  required
+                ></datetime>
+              </div>
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary rounded-pill">
+                Find your ideal haven
+              </button>
+            </div>
+          </form>
+          <form action="">
+            <div class="my-3">
+              <label for="">Or search by property name</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Type name and press enter"
+              />
+            </div>
           </form>
         </div>
-        <!-- <div class="modal-footer">
-          <button
-            type="button"
-            class="btn btn-secondary"
-            data-bs-dismiss="modal"
-          >
-            Close
-          </button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div> -->
       </div>
     </div>
   </div>
 </template>
+<script>
+import { Datetime } from "vue-datetime";
+import "vue-datetime/dist/vue-datetime.css";
+export default {
+  components: {
+    datetime: Datetime,
+  },
+};
+</script>
 
 <style lang="css" scoped>
 .modal-content {
   border-radius: 20px;
-}
-label {
   font-size: 14px;
 }
-.form-select {
+.modal-content .modal-body .btn-primary {
+  padding: 10px;
+}
+.form-select,
+.form-control {
   font-size: 14px;
   padding: 10px;
+}
+.vdatetime >>> input.vdatetime-input {
+  width: 100%;
+  border-radius: 40px;
+  border: 1px solid #ced4da;
+  padding: 5px;
+  text-align: center;
 }
 </style>
