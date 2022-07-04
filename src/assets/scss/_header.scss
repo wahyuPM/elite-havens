@@ -3,7 +3,7 @@ header{
     &.onScroll{
         background: $secondary;
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
-        opacity: 0.8;
+        opacity: 0.9;
         transition: all 0.5s ease-in-out;
     }
     &.stick {
@@ -43,7 +43,7 @@ header{
                     }
 
                     &:hover:before {
-                        opacity: 0.8;
+                        opacity: 0.9;
                     }
 
                     &::before{

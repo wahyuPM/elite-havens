@@ -7815,14 +7815,15 @@ textarea.form-control-lg {
 
 body {
   font: 18px/30px 'Majorant-Light', sans-serif;
-  color: #000; }
+  color: #000;
+  background-color: #EBEDEE; }
 
 header {
   z-index: 50; }
   header.onScroll {
     background: #ebedee;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-    opacity: 0.8;
+    opacity: 0.9;
     transition: all 0.5s ease-in-out; }
   header.stick {
     position: fixed !important;
@@ -7854,7 +7855,7 @@ header {
         padding: 0 35px 0 35px;
         font-weight: 200; }
       header nav.menu ul.menu-main li:hover:before {
-        opacity: 0.8; }
+        opacity: 0.9; }
       header nav.menu ul.menu-main li::before {
         position: absolute;
         background: #ebedee;
@@ -7907,3 +7908,15 @@ section.hero {
 
 .demo-page {
   min-height: 50vh; }
+
+section.elite {
+  font-family: "FS Siena", sans-serif;
+  padding-top: 7rem; }
+  section.elite h3, section.elite .h3 {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #231F20;
+    margin: 0 0 25px;
+    width: 100%; }
