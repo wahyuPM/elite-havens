@@ -3,7 +3,7 @@ section.hero {
     height: 100%;
 
     .owl-carousel .owl-item img {
-        min-height: 150%;
+        min-height: 100vh;
         object-fit: cover;
         object-position: center;
     }

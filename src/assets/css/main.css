@@ -7876,7 +7876,7 @@ section.hero {
   font-family: "FS Siena", sans-serif;
   height: 100%; }
   section.hero .owl-carousel .owl-item img {
-    min-height: 150%;
+    min-height: 100vh;
     object-fit: cover;
     object-position: center; }
   section.hero .hero-title {
@@ -7909,10 +7909,17 @@ section.hero {
 .demo-page {
   min-height: 50vh; }
 
-section.elite {
+.elite {
   font-family: "FS Siena", sans-serif;
   padding-top: 7rem; }
-  section.elite h3, section.elite .h3 {
+  .elite .elite-img {
+    border-left: 1px solid rgba(35, 31, 32, 0.15); }
+    .elite .elite-img img {
+      width: 100%;
+      height: auto; }
+  .elite-content {
+    width: 75%; }
+  .elite h3, .elite .h3 {
     font-size: 20px;
     text-align: center;
     letter-spacing: 0.2em;
@@ -7920,3 +7927,26 @@ section.elite {
     color: #231F20;
     margin: 0 0 25px;
     width: 100%; }
+  .elite__btn {
+    padding: 1rem 2.5rem; }
+    .elite__btn:hover {
+      background-color: #fff;
+      color: #231f20;
+      border: 1px solid #231f20; }
+
+.tagline {
+  font-family: "FS Siena", sans-serif;
+  padding-top: 7rem; }
+  .tagline h2, .tagline .h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    color: #231f20;
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin-bottom: 2rem;
+    width: 65%;
+    margin: 0 auto; }
+  .tagline-content {
+    padding-bottom: 4rem;
+    border-bottom: 1px solid rgba(35, 31, 32, 0.15); }
