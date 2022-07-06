@@ -7952,7 +7952,34 @@ section.hero {
     border-bottom: 1px solid rgba(35, 31, 32, 0.15); }
 
 .destination {
+  font-family: "FS Siena", sans-serif;
   padding: 4rem 0; }
+  .destination .accordion-button {
+    color: rgba(35, 31, 32, 0.4);
+    text-transform: uppercase;
+    font-size: 1.5rem; }
+    .destination .accordion-button:hover {
+      color: #231F20; }
+    .destination .accordion-button:focus, .destination .accordion-button:not(:active) {
+      outline: 0;
+      border: none;
+      box-shadow: none; }
+    .destination .accordion-button::after {
+      content: none; }
+  .destination .btn-primary {
+    padding: .5rem 2.5rem;
+    font-size: .9rem; }
+    .destination .btn-primary:hover {
+      background-color: #fff;
+      color: #231f20;
+      border: 1px solid #231f20; }
+  .destination .accordion-body {
+    font-size: .9rem;
+    text-align: left;
+    color: #231F20;
+    letter-spacing: 0.02em; }
   .destination img {
     width: 100%;
-    height: auto; }
+    height: auto;
+    padding-left: 1.5rem;
+    border-left: 1px solid rgba(35, 31, 32, 0.15); }
