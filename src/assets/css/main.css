@@ -7950,3 +7950,9 @@ section.hero {
   .tagline-content {
     padding-bottom: 4rem;
     border-bottom: 1px solid rgba(35, 31, 32, 0.15); }
+
+.destination {
+  padding: 4rem 0; }
+  .destination img {
+    width: 100%;
+    height: auto; }
