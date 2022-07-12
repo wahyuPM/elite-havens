@@ -126,6 +126,24 @@
         </div>
       </div>
     </section>
+    <section class="delights">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 p-0 tagline py-5">
+            <h2 class="mb-4">BE INSPIRED</h2>
+            <p class="w-50 m-auto">
+              Feel cocooned in some of the most beautiful places in the world
+              and let us wrap our service around you.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <SlideShow />
+          </div>
+        </div>
+      </div>
+    </section>
     <div class="demo-page"></div>
     <Modal />
   </div>
@@ -134,10 +152,12 @@
 <script>
 import Hero from "../../components/hero/HeroComponent.vue";
 import Modal from "../../components/modal/modalComponent.vue";
+import SlideShow from "@/components/slideShow/SlideShowComponent.vue";
 export default {
   components: {
     Hero,
     Modal,
+    SlideShow,
   },
 };
 </script>
