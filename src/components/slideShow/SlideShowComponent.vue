@@ -1,10 +1,10 @@
 <template>
   <carousel
     :stagePadding="100"
-    :dots="false"
     :items="2"
-    :autoplay="true"
+    :autoplay="false"
     :loop="true"
+    :dots="false"
   >
     <div v-for="(row, index) in items" :key="index">
       <SlideItem :src="row.src" :alt="row.alt" />
@@ -28,6 +28,10 @@ export default {
         {
           src: "https://cimages.elitehavens.com/images/portals/rebrand/be-inspired/Wellness.jpg",
           alt: "Slide 2",
+        },
+        {
+          src: "https://cimages.elitehavens.com/images/portals/rebrand/be-inspired/Family.jpg",
+          alt: "Slide 3",
         },
       ],
     };
