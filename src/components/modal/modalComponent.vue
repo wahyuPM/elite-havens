@@ -82,6 +82,7 @@
                 type="text"
                 class="form-control"
                 placeholder="Type name and press enter"
+                focus
               />
             </div>
           </form>
