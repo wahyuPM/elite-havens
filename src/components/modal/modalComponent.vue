@@ -108,6 +108,9 @@ export default {
 .modal-content .modal-body .btn-primary {
   padding: 10px;
 }
+.modal-content .modal-header .btn-primary {
+  padding: 5px 10px;
+}
 .form-select,
 .form-control {
   font-size: 14px;

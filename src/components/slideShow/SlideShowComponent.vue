@@ -6,7 +6,7 @@
     :loop="true"
     :dots="false"
   >
-    <div v-for="(row, index) in items" :key="index">
+    <div class="border-start" v-for="(row, index) in items" :key="index">
       <SlideItem :src="row.src" :alt="row.alt" />
     </div>
   </carousel>

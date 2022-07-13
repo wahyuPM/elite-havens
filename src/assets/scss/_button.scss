@@ -1,0 +1,10 @@
+.btn-primary {
+    padding: .8rem 2.5rem;
+    font-size: .9rem;
+
+    &:hover {
+        background-color: #fff;
+        color: $primary;
+        border: 1px solid $primary;
+    }
+}

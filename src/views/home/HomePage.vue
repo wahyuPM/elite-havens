@@ -144,6 +144,52 @@
         </div>
       </div>
     </section>
+    <section class="difference">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-12 tagline">
+            <h2 class="mb-4">THE ELITE HAVENS DIFFERENCE</h2>
+            <button class="btn btn-primary rounded-pill">
+              See what makes us different
+            </button>
+          </div>
+        </div>
+        <div class="row py-5 my-2">
+          <div class="col-md-3 text-center border-start">
+            <h5>Dining</h5>
+            <p>
+              Delicious food is central to a memorable holiday. Each meal at an
+              elite haven is prepared from scratch and cooked to your taste by a
+              private chef, using only the freshest of ingredients.
+            </p>
+          </div>
+          <div class="col-md-3 text-center border-start">
+            <h5>Dining</h5>
+            <p>
+              Delicious food is central to a memorable holiday. Each meal at an
+              elite haven is prepared from scratch and cooked to your taste by a
+              private chef, using only the freshest of ingredients.
+            </p>
+          </div>
+          <div class="col-md-3 text-center border-start">
+            <h5>Dining</h5>
+            <p>
+              Delicious food is central to a memorable holiday. Each meal at an
+              elite haven is prepared from scratch and cooked to your taste by a
+              private chef, using only the freshest of ingredients.
+            </p>
+          </div>
+          <div class="col-md-3 text-center border-start border-end">
+            <h5>Dining</h5>
+            <p>
+              Delicious food is central to a memorable holiday. Each meal at an
+              elite haven is prepared from scratch and cooked to your taste by a
+              private chef, using only the freshest of ingredients.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
     <div class="demo-page"></div>
     <Modal />
   </div>

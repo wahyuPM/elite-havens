@@ -1,5 +1,5 @@
 <template>
-  <div class="p-2 m-auto">
+  <div class="m-2">
     <a href="" class="d-block image-slide">
       <img :src="`${src}`" :alt="`${alt}`" class="" />
     </a>
@@ -15,16 +15,13 @@ export default {
 
 <style scoped>
 .image-slide {
-  width: 100% !important;
-  height: 30rem !important;
   display: block;
   overflow: hidden;
 }
 .image-slide img {
-  height: max-content !important;
   width: 100% !important;
+  height: 28rem !important;
   object-fit: cover;
-  object-position: center;
 }
 
 a {
