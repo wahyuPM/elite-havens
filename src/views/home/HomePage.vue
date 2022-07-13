@@ -191,7 +191,21 @@
       </div>
     </section>
     <section class="signature">
-      <div class="container signature-bg"></div>
+      <div class="container-fluid signature-bg">
+        <div class="signature-content">
+          <h2>SIGNATURE COLLECTION</h2>
+          <h6 class="mb-4">LUXURY AT ITS FINEST</h6>
+          <div class="py-4">
+            <p>
+              Our Signature villas and chalets offer enhanced luxury at every
+              level. <br /><br />
+              Each tiny detail is taken care of, and small personal touches are
+              sure to delight such as bespoke activities or fine dining with
+              panoramic views.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
     <div class="demo-page"></div>
     <Modal />

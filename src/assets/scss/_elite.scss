@@ -1,5 +1,4 @@
 .elite{
-    font-family: "FS Siena", sans-serif;
     padding-top: 7rem;
 
     .elite-img {
@@ -23,6 +22,11 @@
             color: #231F20;
             margin: 0 0 25px;
             width: 100%;
+    }
+
+    p{
+        font-size: 1rem;
+        color: #231F20;
     }
 
     &__btn{
