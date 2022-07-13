@@ -155,32 +155,32 @@
           </div>
         </div>
         <div class="row py-5 my-2">
-          <div class="col-md-3 text-center border-start">
-            <h5>Dining</h5>
+          <div class="col-md-3 px-4 text-center border-start">
+            <h5 class="py-4">Dining</h5>
             <p>
               Delicious food is central to a memorable holiday. Each meal at an
               elite haven is prepared from scratch and cooked to your taste by a
               private chef, using only the freshest of ingredients.
             </p>
           </div>
-          <div class="col-md-3 text-center border-start">
-            <h5>Dining</h5>
+          <div class="col-md-3 px-4 text-center border-start">
+            <h5 class="py-4">Personal Concierge</h5>
             <p>
               Delicious food is central to a memorable holiday. Each meal at an
               elite haven is prepared from scratch and cooked to your taste by a
               private chef, using only the freshest of ingredients.
             </p>
           </div>
-          <div class="col-md-3 text-center border-start">
-            <h5>Dining</h5>
+          <div class="col-md-3 px-4 text-center border-start">
+            <h5 class="py-4">Local</h5>
             <p>
               Delicious food is central to a memorable holiday. Each meal at an
               elite haven is prepared from scratch and cooked to your taste by a
               private chef, using only the freshest of ingredients.
             </p>
           </div>
-          <div class="col-md-3 text-center border-start border-end">
-            <h5>Dining</h5>
+          <div class="col-md-3 px-4 text-center border-start border-end">
+            <h5 class="py-4">Book Direct</h5>
             <p>
               Delicious food is central to a memorable holiday. Each meal at an
               elite haven is prepared from scratch and cooked to your taste by a
@@ -189,6 +189,9 @@
           </div>
         </div>
       </div>
+    </section>
+    <section class="signature">
+      <div class="container signature-bg"></div>
     </section>
     <div class="demo-page"></div>
     <Modal />
