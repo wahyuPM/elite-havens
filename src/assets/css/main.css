@@ -8034,3 +8034,10 @@ section.hero {
       .signature .signature-bg .signature-content p {
         font-size: 1rem;
         line-height: 18.2px; }
+      .signature .signature-bg .signature-content .btn-primary {
+        background-color: #fff;
+        border: 1px solid #fff;
+        color: #000; }
+        .signature .signature-bg .signature-content .btn-primary:hover {
+          border: 1px solid #231f20;
+          white-space: nowrap; }

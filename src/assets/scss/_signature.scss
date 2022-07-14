@@ -34,6 +34,16 @@
                 font-size: 1rem;
                 line-height: 18.2px;
             }
+            .btn-primary{
+                background-color: #fff;
+                border: 1px solid #fff;
+                color: #000;
+
+                &:hover{
+                    border: 1px solid $primary;
+                    white-space: nowrap;
+                }
+            }
             }
         }
     }

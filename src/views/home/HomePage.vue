@@ -190,7 +190,7 @@
         </div>
       </div>
     </section>
-    <section class="signature">
+    <section class="signature py-5">
       <div class="container-fluid signature-bg">
         <div class="signature-content">
           <h2>SIGNATURE COLLECTION</h2>
@@ -204,6 +204,24 @@
               panoramic views.
             </p>
           </div>
+          <button class="btn btn-primary rounded-pill">
+            Explore our Signature Collection
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="hand-picked">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 p-0 tagline py-5 my-5">
+            <h2 class="mb-4">HAND-PICKED BY ELITE HAVENS</h2>
+            <p class="w-50 m-auto">See all our villas</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <SlideShow2 />
+          </div>
         </div>
       </div>
     </section>
@@ -216,11 +234,13 @@
 import Hero from "../../components/hero/HeroComponent.vue";
 import Modal from "../../components/modal/modalComponent.vue";
 import SlideShow from "@/components/slideShow/SlideShowComponent.vue";
+import SlideShow2 from "@/components/slideShow2/SlideShowComponent.vue";
 export default {
   components: {
     Hero,
     Modal,
     SlideShow,
+    SlideShow2,
   },
 };
 </script>
