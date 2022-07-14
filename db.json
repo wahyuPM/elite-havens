@@ -3,7 +3,8 @@
         {
             "id": 1,
             "name": "Casa del Mar",
-            "bedrooms": 2,
+            "location": "Lombok, Indonesia",
+            "bedrooms": "2 bedrooms",
             "adult": 2,
             "children": 1,
             "price": 200000,
@@ -11,21 +12,23 @@
         },
         {
             "id": 2,
-            "name": "Casa del Mar",
-            "bedrooms": 2,
+            "name": "Kaba Kaba Estate",
+            "location": "Tabanan, Bali, Indonesia",
+            "bedrooms": "2 bedrooms",
             "adult": 2,
             "children": 1,
             "price": 200000,
-            "image": "https://cimages.elitehavens.com/images/gallery/lowres/P00224/Listing.jpg"
+            "image": "https://cimages.elitehavens.com/images/gallery/lowres/P00017/Listing.jpg"
         },
         {
             "id": 3,
-            "name": "Casa del Mar",
-            "bedrooms": 2,
+            "name": "Villa LeGa",
+            "location": "Seminyak, Bali, Indonesia",
+            "bedrooms": "2 bedrooms",
             "adult": 2,
             "children": 1,
             "price": 200000,
-            "image": "https://cimages.elitehavens.com/images/gallery/lowres/P00224/Listing.jpg"
+            "image": "https://cimages.elitehavens.com/images/gallery/lowres/Lega/Villa-Lega-Listing-734x488.jpg"
         }
     ]
 }

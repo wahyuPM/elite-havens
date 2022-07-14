@@ -2,7 +2,7 @@
   <carousel
     :stagePadding="100"
     :items="2"
-    :autoplay="false"
+    :autoplay="true"
     :loop="true"
     :dots="false"
     v-if="property_list.length > 0"

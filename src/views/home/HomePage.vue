@@ -225,6 +225,9 @@
         </div>
       </div>
     </section>
+    <section class="subscribe">
+      <div class="container"></div>
+    </section>
     <div class="demo-page"></div>
     <Modal />
   </div>
