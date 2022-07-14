@@ -1,18 +1,10 @@
 {
     "Data": {
         "name": {
-            "string": [
-                "Casa del Mar",
-                "Kaba Kaba Estate",
-                "Villa LeGa"
-            ]
+            "string": {}
         },
         "location": {
-            "string": [
-                "Bali, Indonesia",
-                "Lombok, Indonesia",
-                "Seminyak, Bali, Indonesia"
-            ]
+            "string": {}
         },
         "bedrooms": {
             "int": {
