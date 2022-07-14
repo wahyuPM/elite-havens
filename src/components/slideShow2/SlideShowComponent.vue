@@ -34,7 +34,9 @@ export default {
   methods: {
     async getdata() {
       try {
-        const response = await this.$http.get(`${this.$api_url}/data`);
+        const response = await this.$http.get(
+          `${this.$api_url}/property?limit=5`
+        );
         if (response) {
           this.property_list = response.data;
         }

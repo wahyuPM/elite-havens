@@ -28,6 +28,9 @@
 export default {
   name: "SlideItem2",
   props: ["data"],
+  mounted() {
+    console.log(this.data);
+  },
 };
 </script>
 
