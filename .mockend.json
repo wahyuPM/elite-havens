@@ -2,15 +2,6 @@
     "Data": {
         "name": {
             "string": {}
-        },
-        "location": {
-            "string": {}
-        },
-        "bedrooms": {
-            "int": {
-                "min": 1,
-                "max": 10
-            }
         }
     }
 }
