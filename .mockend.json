@@ -7,10 +7,11 @@
             }
         },
         "location": {
-            "string": {
-                "minLength": 3,
-                "maxLength": 10
-            }
+            "string": [
+                "Bali, Indonesia",
+                "Lombok, Indonesia",
+                "Seminyak, Bali, Indonesia"
+            ]
         },
         "bedrooms": {
             "number": {
