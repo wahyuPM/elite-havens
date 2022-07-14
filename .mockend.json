@@ -1,18 +1,46 @@
 {
-    "Post": {
-        "title": {
-            "string": {}
+    "Data": {
+        "name": {
+            "string": {
+                "minLength": 3,
+                "maxLength": 10
+            }
         },
-        "comments": {
-            "hasMany": "Comment"
-        }
-    },
-    "Comment": {
-        "body": {
-            "string": {}
+        "location": {
+            "string": {
+                "minLength": 3,
+                "maxLength": 10
+            }
         },
-        "post": {
-            "belongsTo": "Post"
+        "bedrooms": {
+            "number": {
+                "min": 1,
+                "max": 10
+            }
+        },
+        "adult": {
+            "number": {
+                "min": 1,
+                "max": 10
+            }
+        },
+        "children": {
+            "number": {
+                "min": 0,
+                "max": 10
+            }
+        },
+        "price": {
+            "number": {
+                "min": 1,
+                "max": 100000
+            }
+        },
+        "image": {
+            "string": [
+                "https://cimages.elitehavens.com/images/gallery/lowres/P00017/Listing.jpg",
+                "https://cimages.elitehavens.com/images/gallery/lowres/P00224/Listing.jpg"
+            ]
         }
     }
 }
