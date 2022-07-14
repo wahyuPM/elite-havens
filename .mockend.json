@@ -1,18 +1,48 @@
 {
-    "Post": {
-        "title": {
-            "string": {}
+    "Property": {
+        "name": {
+            "string": [
+                "Casa del Mar",
+                "Kaba Kaba Estate",
+                "Villa LeGa"
+            ]
         },
-        "comments": {
-            "hasMany": "Comment"
-        }
-    },
-    "Comment": {
-        "body": {
-            "string": {}
+        "location": {
+            "string": [
+                "Bali, Indonesia",
+                "Lombok, Indonesia",
+                "Seminyak, Bali, Indonesia"
+            ]
         },
-        "post": {
-            "belongsTo": "Post"
+        "bedrooms": {
+            "int": {
+                "min": 1,
+                "max": 10
+            }
+        },
+        "adult": {
+            "int": {
+                "min": 1,
+                "max": 10
+            }
+        },
+        "children": {
+            "int": {
+                "min": 0,
+                "max": 10
+            }
+        },
+        "price": {
+            "int": {
+                "min": 1,
+                "max": 100000
+            }
+        },
+        "image": {
+            "string": [
+                "https://cimages.elitehavens.com/images/gallery/lowres/P00017/Listing.jpg",
+                "https://cimages.elitehavens.com/images/gallery/lowres/P00224/Listing.jpg"
+            ]
         }
     }
 }
