@@ -7952,6 +7952,16 @@ section.hero {
     margin-bottom: 2rem;
     width: 65%;
     margin: 0 auto; }
+  .tagline h3, .tagline .h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    color: #231f20;
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin-bottom: 2rem;
+    width: 45%;
+    margin: 0 auto; }
   .tagline-content {
     padding-bottom: 4rem;
     border-bottom: 1px solid rgba(35, 31, 32, 0.15); }
@@ -8041,3 +8051,7 @@ section.hero {
         .signature .signature-bg .signature-content .btn-primary:hover {
           border: 1px solid #231f20;
           white-space: nowrap; }
+
+.subscribe {
+  background-color: #CADDE3;
+  min-height: 80vh; }

@@ -14,6 +14,19 @@
         margin: 0 auto;
     }
 
+    h3{
+        
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 20px;
+        color: $primary;
+        text-align: center;
+        letter-spacing: 0.2em;
+        margin-bottom: 2rem;
+        width: 45%;
+        margin: 0 auto;
+    }
+
     &-content{
         padding-bottom: 4rem;
         border-bottom: 1px solid rgba(35, 31, 32, 0.15);
