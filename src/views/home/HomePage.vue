@@ -225,8 +225,19 @@
         </div>
       </div>
     </section>
-    <section class="subscribe">
-      <div class="container"></div>
+    <section class="subscribe my-5 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 p-0 tagline my-5 py-5">
+            <h3 class="mb-4">
+              EXTRAORDINARY EXPERIENCES, RIGHT TO YOUR INBOX.
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6"></div>
+        </div>
+      </div>
     </section>
     <div class="demo-page"></div>
     <Modal />
