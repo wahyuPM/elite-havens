@@ -225,8 +225,8 @@
         </div>
       </div>
     </section>
-    <section class="subscribe my-5 py-5">
-      <div class="container">
+    <section class="subscribe mt-5 py-5">
+      <div class="container pb-5">
         <div class="row">
           <div class="col-md-12 p-0 tagline my-5 py-5">
             <h3 class="mb-4">
@@ -284,7 +284,6 @@
         </div>
       </div>
     </section>
-    <div class="demo-page"></div>
     <Modal />
   </div>
 </template>

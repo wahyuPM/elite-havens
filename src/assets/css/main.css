@@ -8088,3 +8088,19 @@ section.hero {
     font-size: 13px;
     font-weight: normal;
     background: none; }
+
+.footer {
+  background-color: #231f20;
+  min-height: 50vh;
+  padding: 10rem 4rem;
+  color: #fff; }
+  .footer h3, .footer .h3 {
+    font-size: 1.2rem; }
+  .footer a {
+    color: #ffffffba;
+    text-decoration: none;
+    font-size: 1rem; }
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
