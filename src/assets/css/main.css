@@ -8053,5 +8053,38 @@ section.hero {
           white-space: nowrap; }
 
 .subscribe {
+  font-family: "Majorant-Light";
   background-color: #CADDE3;
   min-height: 80vh; }
+  .subscribe p, .subscribe li {
+    color: #231F20;
+    font-size: 1rem; }
+  .subscribe input {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18.2px;
+    color: #231F20;
+    display: inline-block;
+    width: 100%;
+    padding: 0 0 10px 4px;
+    margin-bottom: 30px;
+    vertical-align: top;
+    border: none;
+    border-bottom: 1px solid black;
+    background: none; }
+    .subscribe input:focus {
+      outline: none; }
+  .subscribe select {
+    line-height: 18.2px;
+    color: #231F20;
+    display: inline-block;
+    width: 100%;
+    padding: 0 0 10px 0;
+    margin-bottom: 30px;
+    vertical-align: top;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 13px;
+    font-weight: normal;
+    background: none; }

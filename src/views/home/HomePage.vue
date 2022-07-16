@@ -234,8 +234,53 @@
             </h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-6"></div>
+        <div class="row mx-5 mb-5">
+          <div class="col-md-6">
+            <div class="d-flex flex-column align-items-start text-start">
+              <p>By joining the Elite Club, you get:</p>
+              <ul>
+                <li>Exclusive benefits</li>
+                <li>Priority access to promotions</li>
+                <li>Welcome discount of 5% on your next booking</li>
+                <li>Travel inspiration</li>
+              </ul>
+              <p>
+                Join our exclusive community of haven-seekers and be in the
+                know.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <form action="">
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="" placeholder="First name" />
+                </div>
+                <div class="col">
+                  <input type="text" class="" placeholder="Last Name" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <input type="email" class="" placeholder="Email Address" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <select name="" id="">
+                    <option value="">Country</option>
+                    <option value="">Country</option>
+                    <option value="">Country</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col text-start">
+                  <button class="btn btn-primary rounded-pill">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </section>
