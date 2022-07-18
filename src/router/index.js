@@ -17,6 +17,14 @@ const routes = [
         meta: {
           title: 'Elite Havens Luxury Villa Rentals and Management'
         }
+      },
+      {
+        path: '/detail',
+        name: 'detail',
+        component: () => import('../views/detail/DetailPage.vue'),
+        meta: {
+          title: 'Elite Havens Luxury Villa Rentals and Management'
+        }
       }
     ]
   }

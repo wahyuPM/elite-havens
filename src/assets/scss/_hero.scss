@@ -40,8 +40,15 @@ section.hero {
             box-shadow: none;
         }
     }
-}
 
-.demo-page{
-    min-height: 50vh;
+    &__detail-page{
+        margin: 10rem 1rem 5rem 1rem;
+
+        h1 {
+            font-size:4rem;
+            letter-spacing: .2em;
+            color: #fff;
+            text-transform: uppercase;
+        }
+    }
 }
